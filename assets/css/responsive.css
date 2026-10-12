@@ -1,0 +1,20 @@
+/* Responsive rules for mobile and tablet */
+@media (max-width: 860px) {
+  .hidden {
+    position: static;
+    text-align: center;
+    margin: 1.5rem auto 1rem;
+  }
+  
+  #city-name {
+    position: static;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  #week-forecast {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
